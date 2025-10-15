@@ -6,7 +6,6 @@ The app is built with an offline-first approach, ensuring a seamless user experi
 
 ## ✨ Features
 
--   **Splash Screen**: A professional launch screen using the official Android Splash Screen API.
 -   **Tabbed Navigation**: A clean, three-tab layout for easy navigation between Home, Products, and My Uploads.
 -   **Dynamic Home Screen**:
     -   A personalized, time-based greeting (e.g., "Good morning!").
@@ -20,6 +19,7 @@ The app is built with an offline-first approach, ensuring a seamless user experi
     -   A dedicated screen showing only the user's own added products from a local database.
     -   Displays pending items in a "grayed out" state with a clock icon (Optimistic UI).
 -   **Full Offline Support**:
+    -   if the user is offline and he uploads in the "my uploads section you will the product will be grayed out              which means it waiting for the online connection..
     -   All user-added products are saved to a local Room database.
     -   `WorkManager` handles the entire upload process (including slow file I/O) in a separate background process
 -   **User Feedback**: Provides clear feedback via snackbars, system notifications, and an animated "Refreshed!" text.
