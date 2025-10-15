@@ -1,11 +1,11 @@
 # Swipe Product Management App
 
-This is a comprehensive Android application built with Jetpack Compose that allows users to manage products. It features a modern, multi-screen architecture with a splash screen, a dynamic home dashboard, a list of all public products, and a dedicated screen for user-specific uploads.
+This is a comprehensive Android application built with Jetpack Compose that allows users to upload products to an API. It features a modern, multi-screen architecture with a splash screen, a dynamic home dashboard, a list of all public products, and a dedicated screen for user-specific uploads.
 
 The app is built with an offline-first approach, ensuring a seamless user experience even without an internet connection. All user-added products are saved locally, and a robust background process handles uploads to prevent the UI from freezing.
 
 ## ✨ Features
-
+-   **Main UI**: This app follows stock ui , so based on the theme or the color of your colour pallet in your phone         the app changes its colour, even supports light and drak theme
 -   **Tabbed Navigation**: A clean, three-tab layout for easy navigation between Home, Products, and My Uploads.
 -   **Dynamic Home Screen**:
     -   A personalized, time-based greeting (e.g., "Good morning!").
